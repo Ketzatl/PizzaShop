@@ -1,0 +1,20 @@
+{% load static %}
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu des Pizzas</title>
+    <link rel="stylesheet" href="{% static 'menu/style.css' %}">
+</head>
+<body>
+<img id="small-logo" src="{% static 'menu/images/small_logo.png' %}" alt="logo pizzamama">
+<h1>Les Pizzas</h1>
+
+<ul>
+    {% for pizza in pizzas %}
+    <li>{{ pizza }} : {{ pizza.prix }}€</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

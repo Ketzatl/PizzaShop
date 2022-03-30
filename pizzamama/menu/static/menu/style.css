@@ -1,0 +1,20 @@
+h1, li {
+    color: blue;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/menu_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    font-family: Arial, serif;
+}
+
+#small-logo {
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
